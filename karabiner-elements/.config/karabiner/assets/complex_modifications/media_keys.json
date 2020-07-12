@@ -2,7 +2,7 @@
   "title": "Media keys",
   "rules": [
     {
-      "description": "Play/Pause",
+      "description": "MediaKeys: Play/Pause",
       "manipulators" : [
         {
           "type": "basic",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "description": "Play next track",
+      "description": "MediaKeys: Play next track",
       "manipulators" : [
         {
           "type": "basic",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "description": "Play previous track",
+      "description": "MediaKeys: Play previous track",
       "manipulators" : [
         {
           "type": "basic",

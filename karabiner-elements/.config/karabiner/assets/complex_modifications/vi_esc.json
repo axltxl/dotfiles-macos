@@ -2,7 +2,7 @@
   "title": "Vim style escape key mapping",
   "rules": [
     {
-      "description": "Map cmd + [ to escape",
+      "description": "ViEsc: Map cmd + [ to escape",
       "manipulators": [
         {
           "type": "basic",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "description": "Map ctrl + [ to escape",
+      "description": "ViEsc: Map ctrl + [ to escape",
       "manipulators": [
         {
           "type": "basic",
