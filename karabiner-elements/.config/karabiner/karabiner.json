@@ -362,6 +362,36 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Desktop: lock screen",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "q"
+                                        },
+                                        {
+                                            "key_code": "l"
+                                        }
+                                    ]
+                                },
+                                "to": {
+                                    "key_code": "q",
+                                    "modifiers": [
+                                        "control",
+                                        "command"
+                                    ]
+                                },
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },

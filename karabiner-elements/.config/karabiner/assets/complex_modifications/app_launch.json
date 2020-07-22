@@ -1,18 +1,24 @@
 {
   "title": "Launch apps",
-  "rules" : [
+  "rules": [
     {
       "description": "AppLaunch: Launch VSCode",
-      "manipulators" : [
+      "manipulators": [
         {
-          "type" : "basic",
-          "from" : {
+          "type": "basic",
+          "from": {
             "simultaneous": [
-              {"key_code": "w"},
-              {"key_code": "e"}
+              {
+                "key_code": "w"
+              },
+              {
+                "key_code": "e"
+              }
             ],
             "modifiers": {
-              "mandatory": [ "option" ]
+              "mandatory": [
+                "option"
+              ]
             }
           },
           "to": [
@@ -25,16 +31,22 @@
     },
     {
       "description": "AppLaunch: iTerm",
-      "manipulators" : [
+      "manipulators": [
         {
-          "type" : "basic",
-          "from" : {
+          "type": "basic",
+          "from": {
             "simultaneous": [
-              {"key_code": "w"},
-              {"key_code": "t"}
+              {
+                "key_code": "w"
+              },
+              {
+                "key_code": "t"
+              }
             ],
             "modifiers": {
-              "mandatory": [ "option" ]
+              "mandatory": [
+                "option"
+              ]
             }
           },
           "to": [
@@ -47,16 +59,22 @@
     },
     {
       "description": "AppLaunch: Chrome",
-      "manipulators" : [
+      "manipulators": [
         {
-          "type" : "basic",
-          "from" : {
+          "type": "basic",
+          "from": {
             "simultaneous": [
-              {"key_code": "w"},
-              {"key_code": "b"}
+              {
+                "key_code": "w"
+              },
+              {
+                "key_code": "b"
+              }
             ],
             "modifiers": {
-              "mandatory": [ "option" ]
+              "mandatory": [
+                "option"
+              ]
             }
           },
           "to": [
@@ -67,18 +85,24 @@
         }
       ]
     },
-{
+    {
       "description": "AppLaunch: Spotify",
-      "manipulators" : [
+      "manipulators": [
         {
-          "type" : "basic",
-          "from" : {
+          "type": "basic",
+          "from": {
             "simultaneous": [
-              {"key_code": "w"},
-              {"key_code": "p"}
+              {
+                "key_code": "w"
+              },
+              {
+                "key_code": "p"
+              }
             ],
             "modifiers": {
-              "mandatory": [ "option" ]
+              "mandatory": [
+                "option"
+              ]
             }
           },
           "to": [
