@@ -1,6 +1,17 @@
 # dotfiles
 My dotfiles (macOS)
 
+## My `goto` apps for macOS
+### Deep Work
+- [Cold Turkey](https://getcoldturkey.com)
+
+### The basics
+- [iterm2](https://iterm2.com)
+
+### Keyboard-based flow
+- [karabiner-elements](https://karabiner-elements.pqrs.org)
+- [Rectangle](https://rectangleapp.com)
+
 ## Copyright and Licensing
 Copyright (c) 2015 Alejandro Ricoveri
 
