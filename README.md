@@ -2,8 +2,8 @@
 My dotfiles (macOS)
 
 ## My `goto` apps for macOS
-### Deep Work
-- [Cold Turkey](https://getcoldturkey.com)
+### Productivity
+- [Flow](https://flowapp.info)
 
 ### The basics
 - [iterm2](https://iterm2.com)

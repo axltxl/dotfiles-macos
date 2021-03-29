@@ -392,6 +392,99 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Flow: show/hide window",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "f"
+                                        },
+                                        {
+                                            "key_code": "s"
+                                        }
+                                    ]
+                                },
+                                "to": {
+                                    "key_code": "h",
+                                    "modifiers": [
+                                        "control",
+                                        "command",
+                                        "option"
+                                    ]
+                                },
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Flow: start/stop Pomodoro timer",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "f"
+                                        },
+                                        {
+                                            "key_code": "spacebar"
+                                        }
+                                    ]
+                                },
+                                "to": {
+                                    "key_code": "f",
+                                    "modifiers": [
+                                        "control",
+                                        "command",
+                                        "option"
+                                    ]
+                                },
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Flow: reset Pomodoro counter",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "f"
+                                        },
+                                        {
+                                            "key_code": "d"
+                                        }
+                                    ]
+                                },
+                                "to": {
+                                    "key_code": "r",
+                                    "modifiers": [
+                                        "control",
+                                        "command",
+                                        "option"
+                                    ]
+                                },
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
