@@ -11,6 +11,7 @@ My dotfiles (macOS)
 ### Keyboard-based flow
 - [karabiner-elements](https://karabiner-elements.pqrs.org)
 - [Rectangle](https://rectangleapp.com)
+- [Alfred](https://www.alfredapp.com/)
 
 ## Copyright and Licensing
 Copyright (c) 2015 Alejandro Ricoveri
